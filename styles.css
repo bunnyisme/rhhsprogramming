@@ -3,11 +3,10 @@ div {
 	padding: 0;
 	margin: 0;
 	border: 0;
-
 }
 hr {
 	color:black;
-	background-color:black;
+	background-color:transparent;
 	margin-top: 0;
     margin-bottom: 0;
 	height: 15pt;
@@ -17,20 +16,13 @@ body {
 	font-family: Courier;
 	color: white;
 }
-* {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	outline: 0;
-	font-size: 100%;
-	vertical-align: baseline;
-	background: transparent;
-}
 .text-left {
 	padding-left: 15pt;
 }
 .text-center {
 	text-align: center;
+	width: 40%;
+	margin-left: 30%;
 }
 .section-header {
 	padding-top: 30pt;
@@ -43,7 +35,7 @@ body {
 	padding-top: 50pt;
 }
 .arrow{
-	padding-top: 350pt;
+	padding-top: 230pt;
 	font-size: 72pt;
 	text-align: center;
 }
@@ -51,19 +43,27 @@ body {
 	cursor: pointer;
 }
 #header {
-	background-color: black;
 	height:100vh;
 	text-align: center;
 }
 #about {
-	background-color: black;
 }
 #join {
-	background-color: black;
 }
 #footer {
-	background-color: black;
 	height:2vh;
 }
-
+#gradient {
+	background: linear-gradient(red, orange, yellow, green, blue, purple);
+	height: 100%;
+}
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
 
