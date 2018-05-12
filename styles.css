@@ -9,20 +9,20 @@
 }
 #section2 {
 	background-image: linear-gradient(green, red);
-	height:100vh;
 	height: 200px;
+	height:100vh;
 	
 }
 #section3 {
 	background-image: linear-gradient(red, gray);
-	height:100vh;
 	height: 200px;
+	height:100vh;
 	
 }
 #section4 {
 	background-image: linear-gradient(gray, black);
-	height:100vh;
 	height: 200px;
+	height:100vh;
 	
 }
 div {
