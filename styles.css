@@ -16,7 +16,8 @@ div {
 	margin: 0px;
 	border: 0px;
 }
-html {
+html,
+body {
 	font-family: Courier;
 	margin:0;
     padding:0;
