@@ -10,3 +10,9 @@
 #section4 {
 	background-color: gray;
 }
+div {
+    height:100vh;
+}
+html {
+	font-family: Courier;
+}
