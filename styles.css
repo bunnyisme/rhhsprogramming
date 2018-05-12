@@ -18,4 +18,6 @@ div {
 }
 html {
 	font-family: Courier;
+	margin:0;
+    padding:0;
 }
