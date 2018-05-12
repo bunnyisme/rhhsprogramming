@@ -1,18 +1,19 @@
 #section1 {
-	background-color: blue;
-	border: 2px solid blue;
+	height: 200px;
+    background-image: linear-gradient(black, green);
+	height:100vh;
+	font-size: 72px;
+	color: white;
+	text-align: center;
 }
 #section2 {
-	background-color: green;
-	border: 2px solid green;
+	background-image: linear-gradient(green, red);
 }
 #section3 {
-	background-color: red;
-	border: 2px solid red;
+	background-image: linear-gradient(red, gray);
 }
 #section4 {
-	background-color: gray;
-	border: 2px solid gray;
+	background-image: linear-gradient(gray, black);
 }
 div {
     height:75vh;
