@@ -10,7 +10,7 @@ h1 {
 }
 #landing {
 	background-color:#3a7de8;
-	height: 55vh;
+	height: 15vh;
 }
 #body {
 	padding-top: 3vh;
@@ -28,12 +28,12 @@ h1 {
 	text-align: center;
 	padding-top: 2vh;
 }
-#heading{
+#heading {
 	text-align: center;
 	opacity: .7;
 	color: white;
 	font-family: 'Anton', sans-serif;
-	font-size: 15vh;
+	font-size: 5vh;
 	padding-top:  5vh;
 }
 #subheading{
@@ -47,8 +47,19 @@ h1 {
 		font-size: 5vh;
 		padding-top:  5vh;
 	}
+	#heading{
+	text-align: center;
+	opacity: .7;
+	color: white;
+	font-family: 'Anton', sans-serif;
+	font-size: 15vh;
+	padding-top:  5vh;
+	}
+	#landing {
+	background-color:#3a7de8;
+	height: 55vh;
+	}
 }
-
 h1,
 p {
 	font-family: 'Ubuntu Condensed', sans-serif;
@@ -65,11 +76,15 @@ p {
 .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    width: 450px;
+    width: 1231px;
     border-radius: 5px;
 	margin-top: 2vh;
 }
-
+@media only screen and (min-width: 1231px) {
+	.card {
+		width: 450px;
+	}
+}
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 	cursor: pointer;
