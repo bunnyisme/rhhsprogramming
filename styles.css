@@ -8,6 +8,18 @@ h1 {
 	padding: 0;
 	border: 0;
 }
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+/* optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
 #landing {
 	background-color:#3a7de8;
 	height: 15vh;
@@ -22,11 +34,8 @@ h1 {
 #footer {
 	width: 100vw;
 	color: #85b3fc;
-	/*position: fixed;
-    left: 0;
-    bottom: 0;*/
-	text-align: center;
 	padding-top: 2vh;
+	padding-bottom: 1vh;
 }
 #heading {
 	text-align: center;
@@ -111,7 +120,9 @@ img {
 .subscript {
 	color: #777;
 }
-
+#close {
+	text-align: center;
+}
 /*
 colors - 
 light: #85b3fc
