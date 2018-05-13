@@ -1,39 +1,75 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Anton|Ubuntu+Condensed" rel="stylesheet">
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Font Awesome -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	<!-- CSS -->
 	<link href="styles.css" type="text/css" rel="stylesheet">
+	<!-- Title -->
 	<title>RHHS Programming</title>
 </head>
 <body>
-	<div id = "gradient">
-		<div id="header">
-			<h1 class = "header"> RHHS Programming Club </h1>
-			<p style = "margin-top: 15pt" class = "text-center">We are a group of students passionate about programming and computer science who work to further our learning and understanding of the subject by working on and creating projects, attending and creating competitions, and taking courses in our areas of interest. </p>
-			<i class="fas fa-chevron-circle-down arrow" onclick = "scroll()"></i>
-		</div>
-		<hr>
-		<div id="about">
-			<h1 class = "section-header">About</h1>
-		</div>
-		<hr>
-		<div id="join">
-			<h1 class = "section-header">Join</h1>
-		</div>
-		<hr>
-		<div id="footer">
-		<p class = "text-center">&copy 2018 RHHS Programming</p>
+
+<div id = "landing">
+	<h1 id = "heading">RHHS Programming Club</h1>
+	<p id = "subheading"> We are a group of students passionate about programming and computer science who work to further our learning and understanding of the subject by working on and creating projects, attending and creating competitions, and taking courses in our areas of interest. </p>
+</div>
+
+<div id = "body">
+<div class = "row">
+
+<div class = "col-sm-3">
+	<div class="card">
+		<img src="http://www.setvak.cz/timelapse/2012a_SA-Namibia/20120718_1810-2030utc_Crux_Xaragu_R0016226_1080x720.jpg" alt="Avatar" style="width:100%">
+		<div class="card-container">
+			<h4><b>About</b></h4> 
+			<p>During our weekly meetings, members spend the time working on individual projects or collaborative projects...</p> 
 		</div>
 	</div>
-	
-	
-	
-<script>
-function scroll() {
-    var elmnt = document.getElementById("about");
-    //elmnt.scrollIntoView();
-	window.location.href = "https://twitch.tv";
-}
-</script>
+</div>
+
+<div class = "col-sm-3">
+	<div class="card">
+		<img src="http://www.burjdubaiskyscraper.com/2010/04/BK0505.jpg" alt="Avatar" style="width:100%">
+		<div class="card-container">
+			<h4><b>Join</b></h4> 
+			<p>We meet every thursday in room ??? (subject to potential change) after school until 3:00...</p> 
+		</div>
+	</div>
+</div>
+
+<div class = "col-sm-3">
+	<div class="card">
+		<img src="https://filtergrade.com/wp-content/uploads/2016/11/yosemitegallery-1-1080x720.jpg" alt="Avatar" style="width:100%">
+		<div class="card-container">
+			<h4><b>Projects</b></h4> 
+			<p>Link to github page and explanation of github and how the club uses it...</p> 
+		</div>
+	</div>
+</div>
+
+<div class = "col-sm-3">
+	<div class="card">
+		<img src="http://www.setvak.cz/timelapse/2012a_SA-Namibia/20120711_1828-1916utc_MW_Sco-Sgr_Augrabies_R0014443_1080x720.jpg" alt="Avatar" style="width:100%">
+		<div class="card-container">
+			<h4><b>Learn to Code</b></h4> 
+			<p>Link to resources (codecademy, sololearn, that game jerry likes, etc.) ...</p> 
+		</div>
+	</div>
+</div>
+</div>
+</div>
+
+<div id = "footer">
+	<p style = "text-align: center;">&copy 2018 RHHS Programming</p>
+</div>
+
 </body>
 </html>

@@ -1,61 +1,50 @@
 div {
-	height:75vh;
-	padding: 0;
 	margin: 0;
+	padding: 0;
 	border: 0;
 }
-hr {
-	color:black;
-	background-color:transparent;
-	margin-top: 0;
-    margin-bottom: 0;
-	height: 15pt;
+h1 {
+	margin: 0;
+	padding: 0;
+	border: 0;
 }
-html,
-body {
-	font-family: Courier;
-	color: white;
+#landing {
+	background-color:#3a7de8;
+	height: 55vh;
 }
-.text-left {
-	padding-left: 15pt;
-}
-.text-center {
-	text-align: center;
-	width: 40%;
-	margin-left: 30%;
-}
-.section-header {
-	padding-top: 30pt;
-	font-size: 40pt;
-	text-align: center;
-}
-.header {
-	font-size: 72pt;
-	text-align: center;
-	padding-top: 50pt;
-}
-.arrow{
-	padding-top: 230pt;
-	font-size: 72pt;
-	text-align: center;
-}
-.arrow:hover {
-	cursor: pointer;
-}
-#header {
-	height:100vh;
-	text-align: center;
-}
-#about {
-}
-#join {
+#body {
+	padding-top: 3vh;
+	margin-left: 10%;
+	margin-right: 10%;
+	width: 80%;
+	
 }
 #footer {
-	height:2vh;
+	width: 100vw;
+	color: #85b3fc;
+	position: fixed;
+    left: 0;
+    bottom: 0;
+	text-align: center;
 }
-#gradient {
-	background: linear-gradient(red, orange, yellow, green, blue, purple);
-	height: 100%;
+#heading{
+	text-align: center;
+	opacity: .7;
+	color: white;
+	font-family: 'Anton', sans-serif;
+	font-size: 15vh;
+	padding-top:  5vh;
+}
+#subheading{
+	text-align: center;
+	opacity: .7;
+	color: white;
+	font-size: 5vh;
+	padding-top:  5vh;
+}
+h1,
+p {
+	font-family: 'Ubuntu Condensed', sans-serif;
 }
 * {
 	margin: 0;
@@ -66,4 +55,29 @@ body {
 	vertical-align: baseline;
 	background: transparent;
 }
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+    border-radius: 5px;
+}
 
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+	cursor: pointer;
+}
+
+img {
+    border-radius: 5px 5px 0 0;
+}
+
+.card-container {
+    padding: 2px 16px;
+}
+
+/*
+colors - 
+light: #85b3fc
+darker: #3a7de8
+darkest: #1971ff
+*/ 
