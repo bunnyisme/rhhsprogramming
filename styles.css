@@ -21,7 +21,7 @@ html {
     background: #FF0000;
 }
 #landing {
-	background-color:#3a7de8;
+	background-color:#1971ff;
 	height: 15vh;
 }
 #body {
@@ -44,6 +44,7 @@ html {
 	font-family: 'Anton', sans-serif;
 	font-size: 5vh;
 	padding-top:  5vh;
+	letter-spacing: 4px;
 }
 #subheading{
 		font-size: 0px;
@@ -63,9 +64,10 @@ html {
 	font-family: 'Anton', sans-serif;
 	font-size: 15vh;
 	padding-top:  5vh;
+	letter-spacing: 2px;
 	}
 	#landing {
-	background-color:#3a7de8;
+	background-color:#1971ff;
 	height: 55vh;
 	}
 }
@@ -123,6 +125,7 @@ img {
 #close {
 	text-align: center;
 }
+
 /*
 colors - 
 light: #85b3fc
